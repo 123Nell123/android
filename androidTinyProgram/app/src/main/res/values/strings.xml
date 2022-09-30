@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">AppliTrace</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="maps_api_key">AIzaSyCwKNq8E8FC4L-7wveisUeyYtU0Kmg5gSc</string>
+
+
+    <string name="lat_pt1">48.63407892073788</string>
+    <string name="long_pt1">-2.0257311264917317</string>
+
+
+    <string name="lat_pt2"> 48.63666874334342</string>
+    <string name="long_pt2">-2.0288628228322447</string>
+
+
+    <string name="lat_pt3"> 48.63652413894833</string>
+    <string name="long_pt3">-2.0184398149791822</string>
+
+
+    <string name="lat_pt4">48.63362205833056</string>
+    <string name="long_pt4">-2.014395814979305</string>
+
+    <string name="lat_pt5">48.631</string>
+    <string name="long_pt5">-2.014395814979305</string>
+
+    <string name="lat_pt6">48.631</string>
+    <string name="long_pt6">-2.01455</string>
+
+
+    <string name="lat_ptZoom">48.632</string>
+    <string name="long_ptZoom">-2.014</string>
+
+    <string name="lat_per1">48.6</string>
+    <string name="long_per1">-2.05</string>
+    <string name="lat_per2">48.6</string>
+    <string name="long_per2">-2.0</string>
+
+    <string name="lat_per3">48.8</string>
+    <string name="long_per3">-2.0</string>
+    <string name="lat_per4">48.75</string>
+    <string name="long_per4">-2.014</string>
+    <string name="lat_per5">48.8</string>
+    <string name="long_per5">-2.014</string>
+
+    <string name="lat_even1">48.634</string>
+    <string name="long_even1">-2.014</string>
+    <string name="lat_even2">48.635</string>
+    <string name="long_even2">-2.015</string>
+    <string name="affichageHelp">aide</string>
+    <string name="infoHistorique">info</string>
+    <string name="carte">carte</string>
+
+
+</resources>
+
+
+    <!--
+  pt1:  Tour Solidor et ouvrages avancés	329898.3172	6848876.851
+   pt2:  Château. comprenant enceinte. intérieurs des tours et grand donjon	330267.0466	6850799.987
+  pt3:   Fort National et son enceinte	330246.1836	6851174.733
+  pt4:   Fort du Petit Bé	329108.0667	6850990.543
+ pt5:   Tombeau de Chateaubriand et ensemble de l'ilot du Grand Bé	329501.8729	6851002.991
+   pt6: Hôtel de la Gicquelais (maison natale de Chateaubriand)	330141.4586	6850774.778
+
+   pt7: Hôtel Magon de la Lande. dit Hôtel d'Asfeld	330126.5647	6850299.042
+   pt8: Ancien hôtel André Désilles	329998.273	6850386.138
+  **  pt9:Château de la Chipaudière	334986.0421	6848852.978   **
+ **  pt10: Phare du Grand Jardin	325975.4825	6853139.16   **
+ **  pt11: Fort de la Conchée	328915.3254	6854478.306   **
+   pt12: Fortifications (remparts. depuis la pointe du château jusqu'au môle des Noires)	330165.3594	6850525.771
+   pt13: Ancienne cathédrale Saint-Vincent	330041.1629	6850591.378
+   pt14: Peinture murale située dans l'ancien couvent Notre-Dame-des-Victoires	329999.4017	6850743.349
+
+
+   limite1 (sud ouest)	328000	6849000
+limite2 (nord ouest)	328000	6852000
+limite3 (nord est)	332000	6852000
+limite4(sud centre)	330000	6848500
+limite5 (sud est)	332000	6849000
+
+pteven
+ptEven1	329898.31	6848876.85
+ptEven2	330041.16	6850591.3
+
+
+
+    -->
+
+
+

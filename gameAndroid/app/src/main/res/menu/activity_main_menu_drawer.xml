@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_main_drawer_didactique"
+            android:icon="@drawable/buoy"
+            android:title="Aide" />
+    </group>
+
+    <item android:title="Engime Résolue">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/enigme1_interroMari"
+                    android:icon="@drawable/locationb"
+                    android:title="interro Mari"
+                    android:textColor="@color/purple_200"/>
+
+                <item
+                    android:id="@+id/enigme2_tourelle"
+                    android:icon="@drawable/locationb"
+                    android:title="tourelle" />
+                <item
+                    android:id="@+id/enigme3_photo"
+                    android:icon="@drawable/locationb"
+                    android:title="photo" />
+                <item
+                    android:id="@+id/enigme4_ptVue"
+                    android:icon="@drawable/locationb"
+                    android:title="ptVue" />
+                <item
+                    android:id="@+id/enigme5_interro2"
+                    android:icon="@drawable/locationb"
+                    android:title="interro Jaune" />
+
+                <item
+                    android:id="@+id/enigme6_bateau"
+                    android:icon="@drawable/locationb"
+                    android:title="bateau" />
+
+
+                <item
+                    android:id="@+id/score"
+                    android:icon="@drawable/locationb"
+                    android:title="Score" />
+
+
+
+            </group>
+        </menu>
+    </item>
+</menu>

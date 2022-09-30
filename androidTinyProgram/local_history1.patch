@@ -1,0 +1,65 @@
+Index: app/src/main/java/net/lecnam/applitrace/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/net/lecnam/applitrace/MainActivity.java	(date 1618356291441)
++++ app/src/main/java/net/lecnam/applitrace/MainActivity.java	(date 1618356291441)
+@@ -10,10 +10,12 @@
+ import android.content.pm.PackageManager;
+ import android.location.LocationManager;
+ import android.os.Bundle;
++import android.util.Log;
+ import android.view.Menu;
+ import android.view.MenuItem;
+ 
+ public class MainActivity extends AppCompatActivity {
++    private static final String TAG =" TAG" ;
+     Intent intent;
+     LocationManager locationManager;
+     PendingIntent pending;
+@@ -46,19 +48,21 @@
+             //showHelp();
+             Intent intent = new Intent(this, MapsActivity.class);
+             startActivity(intent);
++            Log.i(TAG, "onOptionsItemSelected: ");
+         }
+         return super.onOptionsItemSelected(item);
+     }
+ 
+-
++/*
+     @Override
+     protected void onStart() {
+         super.onStart();
+-
++*/
+         /*
+         cet intent n'est pas declarer dans la carte pour etre independant de la carte pdt le jeu
+          */
+ 
++        /*
+ // On ajoute une alerte de proximité si on s'approche ou s'éloigne du bâtiment de Simple IT
+         intent = new Intent(this, AlertEventReceiver.class);
+ 
+@@ -84,13 +88,15 @@
+        //pending c'est l'action a faire si il ya une alerte !!!!
+         locationManager.addProximityAlert(48.872808, 2.33517, 15, -1,pending);
+        // locationManager.addProximityAlert(48.872808, 2.33517, 150, -1, pending);
+-
+-    }
+-
++*/
++   // }
++/*
+     @Override
+     protected void onStop() {
+         super.onStop();
+ 
+-        locationManager.removeProximityAlert(pending);
++       // locationManager.removeProximityAlert(pending);
+     }
++*/
++
+ }
+\ No newline at end of file
